@@ -1,0 +1,12 @@
+# 0x02. Minimum Operations
+
+## Tasks
+- 0. Minimum Operations
+  - In a text file, there is a single character H. Your text editor can execute only two operations in this file:
+  - Given a number n, write a method that calculates the fewest number of operations needed to result in exactly n H characters in the file
+  - Prototype: def minOperations(n)
+  - Returns an integerIf n is impossible to achieve, return 0
+- Example:
+  - n = 9
+  - H => Copy All => Paste => HH => Paste =>HHH => Copy All => Paste => HHHHHH => Paste => HHHHHHHHH
+  - Number of operations: 6
